@@ -21,7 +21,7 @@ def detect_colors(image, color_ranges):
     
     return detected_colors
 
-# Define the color ranges for detection (in HSV format)
+# Define s
 color_ranges = [
     ('Red', np.array([0, 120, 70]), np.array([10, 255, 255])),
     ('Green', np.array([35, 120, 70]), np.array([130, 255, 255])),
